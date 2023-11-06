@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: rgb(175, 124, 223);  
+    border-radius: 10px; 
+    border: 5px double rgb(148, 76, 216); 
+}
+.container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 100px;
+}
+.playerOne{
+    border-bottom: 1px solid rgb(148, 76, 216);
+    border-radius: 10px 10px 0px 0px;
+}
+.playerTwo{
+    border-radius: 0px 0px 10px 10px;
+}
+span{
+    font-size: 40px;
+    opacity: 0.6;
+}
+.container div:hover{
+    background-color: rgb(182, 138, 220);
+    cursor: pointer;
+    color: white;
+    opacity: 0.6;
+}
